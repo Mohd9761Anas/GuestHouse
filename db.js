@@ -36,7 +36,7 @@ const pool = new Pool({
 
 pool.connect((err, client, done) => {
   if (err) throw err;
-  console.log('Connected to the database');
+  console.log('Connected to the vercel database');
 });
 
 module.exports = pool;
