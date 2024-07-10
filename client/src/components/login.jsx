@@ -19,6 +19,7 @@ const Login = () => {
     try {
       const res = await axios.post('https://guesthouse-m97w.onrender.com/api/login', formData);
       setUser(res.data.user);
+      console.log('Login successful', res.data.user);
       alert('Login successful');
     } catch (err) {
       console.error(err.message);
@@ -27,6 +28,7 @@ const Login = () => {
   };
 
   if (user) {
+    console.log('Redirecting to Dashboard with user:', user);
     return <Dash user={user} />;
   }
 
