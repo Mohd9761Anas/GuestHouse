@@ -21,7 +21,7 @@ const Signup = () => {
   const onSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post(`/api/users`, formData);
+      const res = await axios.post(`https://guesthouse-m97w.onrender.com/api/users`, formData);
       console.log(res.data);
       alert("Signup successful");
     } catch (err) {
