@@ -17,7 +17,7 @@ const Login = () => {
   const onSubmit = async e => {
     e.preventDefault();
     try {
-      const res = await axios.post(`/api/login`, formData);
+      const res = await axios.post('https://guesthouse-m97w.onrender.com/api/login', formData);
       setUser(res.data.user);
       alert('Login successful');
     } catch (err) {
