@@ -17,7 +17,7 @@ const Home = () => {
   useEffect(() => {
     const fetchAccommodations = async () => {
       try {
-        const res = await axios.get(`/api/accommodations`);
+        const res = await axios.get(`https://guesthouse-m97w.onrender.com/api/accommodations`);
         setAccommodations(res.data);
       } catch (err) {
         console.error(err.message);
