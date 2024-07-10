@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a079a204.css",
+    "main.js": "/static/js/main.9ce0d481.js",
+    "static/media/Guesthouse_2.webp": "/static/media/Guesthouse_2.868d53b7bb30a58366bb.webp",
+    "static/media/login.webp": "/static/media/login.2170dad7c4caa18eaf35.webp",
+    "static/media/ongcLogo.jpg": "/static/media/ongcLogo.d878ceab410cbf430523.jpg",
+    "static/media/img3.avif": "/static/media/img3.2dceb406cb39baabdec2.avif",
+    "static/media/img1.avif": "/static/media/img1.979cf8d7ce8fd4e4842b.avif",
+    "index.html": "/index.html",
+    "main.a079a204.css.map": "/static/css/main.a079a204.css.map",
+    "main.9ce0d481.js.map": "/static/js/main.9ce0d481.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a079a204.css",
+    "static/js/main.9ce0d481.js"
+  ]
+}
