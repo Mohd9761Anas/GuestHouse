@@ -76,25 +76,25 @@ const Dash = () => {
       alert("Booking successful");
 
       // Update accommodations state
-      const updatedAccommodations = accommodations.map((accommodation) => {
-        if (accommodation.sr_no === selectedAccommodation) {
-          if (roomType === "vip_room") {
-            return { ...accommodation, vip_rooms: accommodation.vip_rooms - 1 };
-          } else if (roomType === "vvip_suite") {
-            return {
-              ...accommodation,
-              vvip_suites: accommodation.vvip_suites - 1,
-            };
-          } else if (roomType === "standard_room") {
-            return {
-              ...accommodation,
-              no_of_rooms: accommodation.no_of_rooms - 1,
-            };
-          }
-        }
-        return accommodation;
-      });
-      setAccommodations(updatedAccommodations);
+      // const updatedAccommodations = accommodations.map((accommodation) => {
+      //   if (accommodation.sr_no === selectedAccommodation) {
+      //     if (roomType === "vip_room") {
+      //       return { ...accommodation, vip_rooms: accommodation.vip_rooms - 1 };
+      //     } else if (roomType === "vvip_suite") {
+      //       return {
+      //         ...accommodation,
+      //         vvip_suites: accommodation.vvip_suites - 1,
+      //       };
+      //     } else if (roomType === "standard_room") {
+      //       return {
+      //         ...accommodation,
+      //         no_of_rooms: accommodation.no_of_rooms - 1,
+      //       };
+      //     }
+      //   }
+      //   return accommodation;
+      // });
+      // setAccommodations(updatedAccommodations);
     } catch (err) {
       console.error(err.message);
       alert("Booking failed");
