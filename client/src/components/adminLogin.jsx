@@ -20,7 +20,7 @@ const AdminLogin = () => {
     try {
       const res = await axios.post(
         "https://guesthouse-m97w.onrender.com/api/admin/login",
-        formData--
+        formData
       );
       setUser(res.data.user);
       alert("Login successful");
