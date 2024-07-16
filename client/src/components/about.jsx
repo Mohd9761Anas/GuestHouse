@@ -1,13 +1,18 @@
-import React from "react";
+import React , { useRef}  from "react";
 import Nav from "./nav";
 import Footer from "./footer";
 import { useLocation } from 'react-router-dom';
 const About=()=>{
+  const footerRef = useRef(null);
+
+  const scrollToFooter = () => {
+    footerRef.current.scrollIntoView({ behavior: 'smooth' });
+  };
   const location = useLocation();
   const { prop, user } = location.state || {};
     return(
         <div>
-        <Nav user={user}/>
+        <Nav user={user} scrollToFooter={scrollToFooter}/>
         <div className="container mt-5">
         <h1>About ONGC Guest House Booking Portal</h1>
         <p>
@@ -30,7 +35,7 @@ const About=()=>{
         </p>
         
       </div>
-        <Footer id="footer" />
+        <Footer id="footer" ref={footerRef}/>
       </div>
     )
 }
