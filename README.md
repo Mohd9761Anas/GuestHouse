@@ -27,8 +27,7 @@ Navigate to the booking section, select your accommodation, check-in and check-o
 View, edit, or cancel your bookings from the bookings section.
 
 # Deployment
-- .Backend
-The backend is deployed on Render. Ensure you have configured your Render service with the correct environment variables and database connection string.
-
-- .Frontend
+- .Backend:
+The backend is deployed on Render. 
+- .Frontend:
 The frontend is deployed on Vercel. 
