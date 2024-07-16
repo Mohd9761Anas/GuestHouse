@@ -31,4 +31,4 @@ View, edit, or cancel your bookings from the bookings section.
 The backend is deployed on Render. Ensure you have configured your Render service with the correct environment variables and database connection string.
 
 2.Frontend
-The frontend is deployed on Vercel. Deploy 
+The frontend is deployed on Vercel. 
