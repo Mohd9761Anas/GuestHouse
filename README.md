@@ -15,7 +15,7 @@ The ONGC Guest House Booking Portal is a web application designed to streamline 
 4.Deployment: Render (backend), Vercel (frontend)
 # Usage
 1.Access the application:
-Open your browser and go to http://localhost:3000.
+Open your browser and go to https://guest-house-tau.vercel.app/.
 
 2.Login or Signup:
 Use your credentials to log in or sign up if you don't have an account.
