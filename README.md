@@ -2,10 +2,10 @@
 # Introduction
 The ONGC Guest House Booking Portal is a web application designed to streamline the booking process for guest house accommodations provided by ONGC. This portal allows ONGC employees and guests to book rooms, manage their bookings, and view room availability easily.
 # Features
-1.User Authentication: Secure login and signup for ONGC employees and guests.
-2.Accommodation Management: View and manage available accommodations, including VIP rooms and VVIP suites.
-3.Booking Management: Make new bookings, view existing bookings, and cancel bookings.
-4.Room Availability: Check room availability based on selected accommodation and date range.
+*.User Authentication: Secure login and signup for ONGC employees and guests.
+*.Accommodation Management: View and manage available accommodations, including VIP rooms and VVIP suites.
+*.Booking Management: Make new bookings, view existing bookings, and cancel bookings.
+*.Room Availability: Check room availability based on selected accommodation and date range.
 5.Admin Panel: Admins can manage users, accommodations, and bookings.
 6.Responsive Design: Fully responsive UI for an optimal experience on both desktop and mobile devices.
 # Technology Stack
